@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">wcl-plugin-test-app</string>
+    <string name="main_goto_master">跳转主应用</string>
+</resources>
