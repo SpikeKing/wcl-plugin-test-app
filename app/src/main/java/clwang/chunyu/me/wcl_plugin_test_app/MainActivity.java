@@ -33,12 +33,12 @@ public class MainActivity extends AppCompatActivity {
 
         mBGotoMaster.setOnClickListener(this::gotoMaster);
 
-        Log.e(TAG, "onCreate");
+        Log.d(TAG, "onCreate"); // 测试生命周期
     }
 
     @Override protected void onDestroy() {
         super.onDestroy();
-        Log.e(TAG, "onDestroy");
+        Log.d(TAG, "onDestroy"); // 测试生命周期
     }
 
     // 跳转控件
